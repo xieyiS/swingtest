@@ -1,25 +1,28 @@
 package swingtest;
 
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
 import javax.swing.JFrame;
 
 public class AdapterDemo extends JFrame {
-	/*AdapterDemo() {
+	AdapterDemo() {
 	    addWindowListener(new MyAdapter());
-	}*/
+	}
 
     public static void main(String[] args) {
-		/*AdapterDemo frame = new AdapterDemo();
+		AdapterDemo frame = new AdapterDemo();
 		frame.setTitle("我的框架");
 		frame.setSize(400, 200);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);*/
+		frame.setVisible(true);
     }
 
-	/*class MyAdapter extends WindowAdapter {
+	class MyAdapter extends WindowAdapter {
 	    public void windowActivated(WindowEvent e) {
 	        System.out.println("windowActivated....");
 	    }
-	}*/
+	}
 
 }
